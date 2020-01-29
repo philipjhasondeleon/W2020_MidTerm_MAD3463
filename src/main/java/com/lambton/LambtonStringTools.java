@@ -14,6 +14,7 @@ public class LambtonStringTools
     //1 - REVERSE STRING
     public static String reverse(String s)
     {
+        //String revString =
 
         return null;
     }
@@ -21,8 +22,9 @@ public class LambtonStringTools
     //2 - FORMAT INITIALS OF STRING
     public static String initials(String s) 
     {
-
-        return null;
+        String name = s;
+        int len = name.length();
+        return s;
     }
         
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
@@ -34,12 +36,14 @@ public class LambtonStringTools
     //4 - CONVERT BINARY NUMBER TO DECIMALS
     public static int binaryToDecimal(String s) 
     {
+
        return 0;
     }
      
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
     public static String replaceSubString(String text, String findString, String newString)
     {
+
         return null;
     }
 }
