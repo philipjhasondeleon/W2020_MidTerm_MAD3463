@@ -7,7 +7,7 @@ package com.lambton;
 
 /**
  *
- * @author Pritesh Patel
+ * @author Pritesh Patelå
  */
 public class MidTerm_WMAD3464_Code {
 
