@@ -14,9 +14,10 @@ public class LambtonStringTools
     //1 - REVERSE STRING
     public static String reverse(String s)
     {
-        //String revString =
+
 
         return null;
+
     }
     
     //2 - FORMAT INITIALS OF STRING
@@ -43,7 +44,11 @@ public class LambtonStringTools
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
     public static String replaceSubString(String text, String findString, String newString)
     {
+        //replaceSubString().toLowerCase(text, findString, newString);
 
-        return null;
+        String words = text + findString + newString;
+        int len = words.length();
+
+        return text.toLowerCase() + findString.toLowerCase() + newString.toLowerCase();
     }
 }
