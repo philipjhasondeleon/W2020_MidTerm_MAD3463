@@ -46,9 +46,14 @@ public class LambtonStringTools
     {
         //replaceSubString().toLowerCase(text, findString, newString);
 
-        String words = text + findString + newString;
-        int len = words.length();
+        /*{
+            String t1 = text;
+            String t1 ("Lambton College in Toronto");
+            String t1=text.replace("the dog jumped over the fence");
+            System.out.println(t1);
+        }
 
+         */
         return text.toLowerCase() + findString.toLowerCase() + newString.toLowerCase();
     }
 }
